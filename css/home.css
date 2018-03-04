@@ -1,0 +1,92 @@
+/*For Home Section*/
+
+#cssa-apps {
+    background: url(../images/cssa_apps_index.jpg) no-repeat center center;
+    color: #000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+#rate-my-professor {
+    background: url(../images/cssa_apps_professor.jpg) no-repeat center center;
+    color: #000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+#secondary-market {
+    background: url(../images/cssa_apps_market.jpg) no-repeat center center;
+    color: #000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+#freshman-handbook {
+    background: url(../images/cssa_apps_freshman.jpg) no-repeat center center;
+    color: #000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.home-wrapper {
+    padding: 150px 0;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .home-wrapper {
+        padding: 250px 0;
+        overflow: hidden;
+    }
+}
+
+.home-content h1 {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 10px #111111;
+}
+
+.home-content img {
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 15%;
+}
+
+.home-content img:hover {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+#cssa-apps .home-content h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 20px #111111;
+}
+
+@media screen and (min-width: 768px) {
+    .home-content img {
+        width: 200px;
+    }
+
+    .home-content h1 {
+        font-size: 30px;
+        text-shadow: 0 0 10px #111111;
+    }
+
+    #cssa-apps .home-content h1 {
+        font-size: 100px;
+    }
+}
